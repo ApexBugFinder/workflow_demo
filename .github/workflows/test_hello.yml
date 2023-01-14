@@ -19,7 +19,7 @@ jobs:
           echo "On branch ${{ github.ref }} of repository ${{ github.repository }}."
       
       - name: Check out eh repository code so it can be run by GitHub
-          uses: actions/checkout@v2
+        uses: actions/checkout@v2
           
           
       - run: echo "The ${{ githu.repository || repository has been clone to the runner."
